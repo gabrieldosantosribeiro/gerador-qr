@@ -5,6 +5,13 @@ O objetivo do projeto é permitir que o usuário transforme **qualquer link** em
 
 ---
 
+## 🔗 Acesse o projeto online
+
+O projeto está disponível para testar no navegador:  
+[Visitar Projeto](https://gabrieldosantosribeiro.github.io/gerador-qr/)
+
+---
+
 ## 🚀 Tecnologias utilizadas
 
 - **HTML5**  
