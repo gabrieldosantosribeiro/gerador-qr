@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Gerador QR</title>
+    <!-- fonte montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>GERADOR DE QR CODE</h1>
+        <input type="url" placeholder="LINK AQUI!" id="link-input">
+        <button id="gerar-btn" onclick="gerarQrCode()">GERAR QR CODE</button>
+        <div class="qr" id="qr-code">
+            <!-- qrcode aqui -->
+        </div>
+        <button id="baixar-btn" disabled onclick="baixarQrCode()">BAIXAR QR CODE</button>
+        <p>© Todos direitos reservados por Gabriel dos Santos Ribeiro</p>
+        <div class="redes-sociais">
+            <a href="https://www.instagram.com/gabsref" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-santos-ribeiro-196110257" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://wa.me/5511975656755" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://github.com/gabrieldosantosribeiro" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+    </main>
+
+
+    <script src="libs/anime.min.js"></script>
+    <script src="libs/qrcode.min.js"></script>
+    <script src="libs/jspdf.umd.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- icones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
