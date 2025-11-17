@@ -40,6 +40,7 @@ O objetivo do projeto é permitir que o usuário transforme **qualquer link** em
 ### 🎞️ Funcionamento (GIF)
 ![Demonstração do Projeto](./assets/demo.gif)
 
+---
 
 ## 🧠 O que aprendi com este projeto
 
@@ -50,12 +51,16 @@ O objetivo do projeto é permitir que o usuário transforme **qualquer link** em
 - Animações CSS para erros  
 - Boas práticas de UI (inputs, botões, espaçamentos)
 
+---
+
 ## 📝 Como usar
 
 1. Digite qualquer link no campo de texto.  
 2. Clique no botão **GERAR QR CODE**.  
 3. O QR Code aparecerá na tela.  
 4. (Opcional) Clique em **BAIXAR QR CODE** para salvar a imagem.
+
+---
 
 ## 📦 Instalação
 
